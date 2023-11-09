@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navOne {
+  font-family: "Times New Roman";
+  color: #832729;
+  transition: 0.5s;
+  font-size: 0.79em;
+}
+.navOne:hover {
+  transform: scale(1.1, 1.1);
+  font-weight: bold;
+  transition: 0.5s;
+}
+.One {
+  position: absolute;
+  top: 54x;
+  border-radius: 4px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  box-shadow: 1px 1px 2px 0.5px #832729;
+  border-top: 2px solid #832729;
+  background-color: white;
+}
+li > ul {
+  display: none !important;
+}
+li:hover > ul {
+  display: inline-flex !important;
+  transition: 0.5s;
+}
+nav li.tWO > ul {
+  display: none !important;
+}
+nav li.tWO:hover > ul {
+  display: inline-flex !important;
+}
+.navUp {
+  z-index: 500;
+}
+.tWO {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50px;
+  left: -85px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 4px;
+  width: 20vw;
+  box-shadow: 1px 1px 2px 0.5px #832729;
+  text-align: center;
+}
+.nav_bordar:hover {
+  border-bottom: 2px solid #832729;
+}
+.set1 {
+  color: #832729;
+}
+.livecheskty {
+  position: fixed;
+  top: 450px;
+  right: -15px;
+  z-index: 500;
+  transform: rotate(90deg);
+}
+.imgSet {
+  height: 30vh;
+}
+.trans:hover {
+  transition: 0.5s;
+  margin-right: 50px;
+}
+.cardSet:hover {
+  transition: 0.3s;
+  box-shadow: 1px 1px 2px 0.5px #832729;
+}
+.Color {
+  background: #fff9f9 !important;
+  border: 1px solid #832729 !important;
+  color: #832729;
+}
+.Color:hover {
+  background: #832729 !important;
+  border: 1px solid #832729 !important;
+  color: #fff9f9 !important;
+  transition: 0.5s;
+}
+.video_size {
+  width: 85vw;
+  border-radius: 30px;
+}
+.footIMG {
+  width: 7vw;
+  height: 10vh;
+}
